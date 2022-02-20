@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Players</title>
+    <style>
+        h4 {
+            font-size: 1.5em;
+            font-weight: 600;
+            color: blue;
+        }
+
+        #players .player:first-child {
+            background-color: blanchedalmond;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1> Players Statistics</h1>
+    </header>
+    <main>
+        <section id="players">
+            <!-- div.player*4>h4.player-name{player-$}+p>lorem20 -->
+            <div class="player">
+                <h4 class="player-name">player-1</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores pariatur iure dolor voluptates
+                    dolorem illum alias magnam praesentium distinctio delectus.</p>
+            </div>
+            <div class="player">
+                <h4 class="player-name">player-2</h4>
+                <p>A vel ipsam, est dolorem, suscipit, nemo sunt quae dolor facere rem veritatis adipisci culpa
+                    cupiditate voluptas beatae recusandae voluptatum?</p>
+            </div>
+            <div class="player">
+                <h4 class="player-name">player-3</h4>
+                <p>Eligendi temporibus adipisci quaerat? Libero facere odio obcaecati quos saepe porro delectus ullam
+                    deleniti, error, recusandae amet voluptatem dignissimos quibusdam.</p>
+            </div>
+            <div class="player">
+                <h4 class="player-name">player-4</h4>
+                <p>Repellat minus esse accusantium, aliquam recusandae, dolor harum laboriosam temporibus commodi sint,
+                    facere magni suscipit. Alias, itaque officia! Sunt, ipsum.</p>
+            </div>
+        </section>
+        <button onclick="addPlayer()">Add Player</button>
+    </main>
+
+    <script src="./js/players.js"></script>
+</body>
+
+</html>
